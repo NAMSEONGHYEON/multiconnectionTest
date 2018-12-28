@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+						"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jihn.mappers.query">
+	
+	<select id="multipledb1" resultType="Integer">
+	    SELECT COUNT(*)
+	    FROM test01_sample
+	</select>
+	
+	<select id="multipledb2" resultType="Integer">
+	    SELECT COUNT(*)
+	    FROM test02_sample
+	</select>
+	
+	<delete id="multipledb1delete">
+		delete from test01_sample where id=4
+	</delete>
+
+	<insert id="multipledb2create">
+		insert into test02_sample (id, name, phone) values(6,6,6)
+	</insert>
+	
+</mapper>
