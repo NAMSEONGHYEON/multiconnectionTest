@@ -51,10 +51,4 @@ public class studyDAOImpl implements studyDAO{
 		// TODO Auto-generated method stub
 		query2.insert(namespace+".multipledb2create");
 	}
-
-	@Override
-	public List<countVO> count() throws Exception {
-		// TODO Auto-generated method stub
-		return query.selectList(namespace+".count");
-	}
 }

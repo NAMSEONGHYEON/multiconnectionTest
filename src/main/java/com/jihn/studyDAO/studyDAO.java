@@ -10,9 +10,4 @@ public interface studyDAO {
 	public void multipledb2() throws Exception;
 	public void multipledb1delete() throws Exception;
 	public void multipledb2create() throws Exception;
-	
-	
-	
-	public List<countVO> count() throws Exception;
-
 }
