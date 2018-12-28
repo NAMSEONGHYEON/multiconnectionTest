@@ -24,14 +24,6 @@ public class studyServiceImpl implements studyService {
 		 dao.multipledb1();
 		 dao.multipledb2();
 		 dao.multipledb1delete();
-		 dao.multipledb2create();
-		 
+		 dao.multipledb2create();		 
 	}
-
-	@Override
-	public List<countVO> count() throws Exception {
-		// TODO Auto-generated method stub
-		return dao.count();
-	}
-
 }

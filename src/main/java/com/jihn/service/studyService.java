@@ -8,6 +8,4 @@ import com.jihn.domain.countVO;
 public interface studyService {
 	
 	public void multipledb() throws Exception;
-	public List<countVO> count() throws Exception;
-	
 }

@@ -52,11 +52,4 @@ public class HomeController {
 	    }
 		return "/success";
 	}
-	
-	@RequestMapping(value="/count", method=RequestMethod.GET)
-	public void count(Model model)throws Exception{
-	    System.err.println("1");
-		model.addAttribute("count", service.count());
-	}
-
 }
